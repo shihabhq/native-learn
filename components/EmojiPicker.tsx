@@ -7,6 +7,7 @@ type Props = {
 };
 
 export default function EmojiPicker({ isVisible, children, onClose }: Props) {
+  
   return (
     <View>
       <Modal animationType="slide" transparent={true} visible={isVisible}>
